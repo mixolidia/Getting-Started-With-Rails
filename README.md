@@ -54,3 +54,9 @@ private
 
   Resource-oriented style:
   http://api.rubyonrails.org/v5.2.3/classes/ActionView/Helpers/FormHelper.html#method-i-form_with-label-Resource-oriented+style
+
+  Working With JavaScript in Rails:
+  https://guides.rubyonrails.org/working_with_javascript_in_rails.html
+
+  Rails Routing from the Outside In:
+  https://guides.rubyonrails.org/routing.html
