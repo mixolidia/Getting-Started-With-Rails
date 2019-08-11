@@ -45,3 +45,6 @@ private
   VALIDATIONS: https://guides.rubyonrails.org/active_record_validations.html
 
   Rails automatically wraps fields that contain an error with a div with class field_with_errors. You can define a css rule to make them standout.
+
+  form_with documentation:
+  https://api.rubyonrails.org/v5.2.3/classes/ActionView/Helpers/FormHelper.html#method-i-form_with
