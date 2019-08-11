@@ -39,3 +39,5 @@ private
   def article_params
     params.require(:article).permit(:title, :text)
   end
+
+  A frequent practice is to place the standard CRUD actions in each controller in the following order: index, show, new, edit, create, update and destroy. You may use any order you choose, but keep in mind that these are public methods; as mentioned earlier in this guide, they must be placed before declaring private visibility in the controller.
