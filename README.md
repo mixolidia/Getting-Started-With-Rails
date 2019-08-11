@@ -48,3 +48,9 @@ private
 
   form_with documentation:
   https://api.rubyonrails.org/v5.2.3/classes/ActionView/Helpers/FormHelper.html#method-i-form_with
+
+  Layouts and Rendering in Rails:
+  https://guides.rubyonrails.org/layouts_and_rendering.html
+
+  Resource-oriented style:
+  http://api.rubyonrails.org/v5.2.3/classes/ActionView/Helpers/FormHelper.html#method-i-form_with-label-Resource-oriented+style
