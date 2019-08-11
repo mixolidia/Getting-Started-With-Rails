@@ -1,11 +1,10 @@
 class ArticlesController < ApplicationController
 
-def new
-  
-end
+  def new
+  end
 
-def create
-  
-end
+  def create
+    render plain: params[:article].inspect
+  end
 
 end
