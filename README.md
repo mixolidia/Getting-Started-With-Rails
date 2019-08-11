@@ -41,3 +41,7 @@ private
   end
 
   A frequent practice is to place the standard CRUD actions in each controller in the following order: index, show, new, edit, create, update and destroy. You may use any order you choose, but keep in mind that these are public methods; as mentioned earlier in this guide, they must be placed before declaring private visibility in the controller.
+
+  VALIDATIONS: https://guides.rubyonrails.org/active_record_validations.html
+
+  Rails automatically wraps fields that contain an error with a div with class field_with_errors. You can define a css rule to make them standout.
