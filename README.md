@@ -28,3 +28,14 @@ Getting Started with Rails:
 https://guides.rubyonrails.org/getting_started.html
 
 Because you're working in the development environment by default, this command will apply to the database defined in the development section of your config/database.yml file. If you would like to execute migrations in another environment, for instance in production, you must explicitly pass it when invoking the command: bin/rails db:migrate RAILS_ENV=production.
+
+STRONG PARAMS:
+https://guides.rubyonrails.org/action_controller_overview.html#strong-parameters
+
+can use:
+@article = Article.new(params.require(:article).permit(:title, :text))
+when reused by multiple actions can be factored out into its own private method:
+private
+  def article_params
+    params.require(:article).permit(:title, :text)
+  end
