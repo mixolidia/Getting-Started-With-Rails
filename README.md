@@ -60,3 +60,8 @@ private
 
   Rails Routing from the Outside In:
   https://guides.rubyonrails.org/routing.html
+
+  Active Record Associations:
+  https://guides.rubyonrails.org/association_basics.html
+
+
