@@ -64,4 +64,5 @@ private
   Active Record Associations:
   https://guides.rubyonrails.org/association_basics.html
 
-
+  Rails Routing:
+  https://guides.rubyonrails.org/routing.html
