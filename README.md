@@ -66,3 +66,12 @@ private
 
   Rails Routing:
   https://guides.rubyonrails.org/routing.html
+  to see routes in the browser:
+  http://localhost:(port#)/rails/info/routes
+
+  Authentication gems:
+  Devise:
+  https://github.com/plataformatec/devise
+
+  Authlogic:
+  https://github.com/binarylogic/authlogic
